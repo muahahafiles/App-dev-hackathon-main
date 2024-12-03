@@ -1,0 +1,49 @@
+.homework-div {
+  padding: 2em;
+}
+.homework-content {
+  margin-left: 4em;
+}
+
+.homework-submit {
+  padding: 1em 0em;
+}
+
+.homework-input {
+  display: block;
+  width: 100%;
+  height: 2.5em;
+  margin: 1.5em 0em 0em 0em;
+  resize: vertical;
+  cursor: pointer;
+}
+
+.description {
+  height: 10em;
+}
+
+.submission-div {
+  display: flex;
+  width: 100%;
+}
+
+.submission-div > button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  margin-left: 2em;
+}
+
+.submission-div > button:hover {
+  color: rgb(72, 218, 255);
+  cursor: pointer;
+}
+.submission-text {
+  display: none;
+}
+.submission-text.show-submission {
+  display:block;
+  padding: 1em;
+  background-color: rgb(80, 80, 80);
+}
+
